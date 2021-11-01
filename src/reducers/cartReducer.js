@@ -50,9 +50,9 @@ const cartReducer = (state = initState, action) => {
       }
     
       //INSIDE HOME COMPONENT
-      if (action.type === ADD_TO_CART) {
-        
+      if (action.type === ADD_TO_CART) {     
           // Add code here
+          
           // const id = action.playload;
           // const found = state.items.find((item)=>item.id===id);
           // if(found !=== undefined && found !=== null){
